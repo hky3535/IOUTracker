@@ -1,7 +1,7 @@
 """hekaiyue 何恺悦 2024-01-23"""
 
 
-class Engine:
+class IOUTracker:
     def __init__(self, iou_thresh=0.5, buffer_size=5):
         self.iou_thresh = iou_thresh # 判断为同一目标的阈值
         self.buffer_size = buffer_size # 缓存大小
